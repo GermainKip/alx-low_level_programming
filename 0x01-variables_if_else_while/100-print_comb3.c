@@ -17,21 +17,21 @@ int main(void)
 
 	while (a <= '9')
 	{
-		a = '0';
-		while (a <= '9')
+		b = '0';
+		while (b <= '9')
 		{
-			if (a != a && b < a )
+			if (a != b && a < b )
 			{
-				putchar(b);
 				putchar(a);
-				if (b == '8' && a == '9')
+				putchar(b);
+				if (a == '8' && b == '9')
 					break;
 				putchar(',');
 				putchar(' ');
 			}
-			a++;
+			b++;
 		}
-		b++;
+		a++;
 	}			
 	putchar('\n');
 	return (0);
