@@ -1,7 +1,8 @@
 #include<stdio.h>
-/*
- *   main - prints the message using puts
- *   Return: 0 if no error is encountered
+
+/**
+ * main - prints the message using puts
+ *Return: 0 if no error is encountered
  */
 int main(void)
 {
