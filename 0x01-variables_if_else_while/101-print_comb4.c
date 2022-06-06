@@ -21,7 +21,7 @@ int main(void)
 					putchar(l);
 
 					if (p != 55 || q != 56)
-		                        {
+					{
 						putchar(',');
 						putchar(' ');
 					}
