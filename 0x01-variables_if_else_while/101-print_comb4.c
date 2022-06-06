@@ -11,13 +11,15 @@ int main(void)
 	for (p = 48; p < 58; p++)
 	{
 		for (q = 49; q < 58; q++)
-		{											       for (l = 50; l < 58; l++)
- 			{
+		{
+			for (l = 50; l < 58; l++)
+			{
 				if (l > q && q > p)
 				{
 					putchar(p);
 					putchar(q);
 					putchar(l);
+
 					if (p != 55 || q != 56)
 		                        {
 						putchar(',');
