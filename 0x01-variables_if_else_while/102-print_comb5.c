@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Prints all the possible combinations of two two-digit numbers
  *
- *Return 0 if the program is successful
+ *Return: 0 if the program is successful
  */
-int main()
+int main(void)
 {
 	int numb1, numb2;
 
