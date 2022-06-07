@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
  * main -generates a random number n each time the code is compiled
  * the number is then checked whether it is positive,zero,negative
@@ -10,7 +9,6 @@
 int main(void)
 {
 	int n;
-
         srand(time(0));
 	n =rand() - RAND_MAX / 2;
 	if (n > 0)
