@@ -1,12 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - prints _putchar
  *
- * Return : 0 should always be returned
+ * Return: 0 should always be returned
  */
 int main(void)
 {
-	putchar("_putchar \n");
+	char m[8] = "_putchar";
+	int n;
+
+	for (n = 0; n < 8; n++)
+	{
+		_putchar(m[n]);
+	}
+	_putchar('\n');
 	return (0);
 }
