@@ -6,7 +6,7 @@
  * numbers should be separated by commas followed by space
  * first number should be number passed to you function and
  * last number should be 98
- * @a: number passed into the function
+ * @b: number passed into the function
  */
 
 void print_to_98(int b)
