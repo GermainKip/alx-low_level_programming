@@ -1,13 +1,14 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib>
 #include <time.h>
 
 /**
- * main - generates a different value of n each time the code is run 
- *the last digit of n is computed
- *prints if the last digit is 5, or 0 or less than 6 and not 0
- *Return: 0  if there is no error 
-**/
+ * main - generates a different value of n each time the code is run
+ * the last digit of n is computed
+ * prints if the last digit is 5, or 0 or less than 6 and not 0
+ * Return: 0  if there is no error
+ */
+
 int main(void)
 {
 	int n;
@@ -18,7 +19,7 @@ int main(void)
 	if (n % 10 > 5)
 		printf("and is greater than 5\n");
 	else if (n % 10 == 0)
-	        printf("and is 0\n");
+		printf("and is 0\n");
 	else if (n % 10 < 6 && n % 10 != 0)
 		printf("and is less than 6 and not 0\n");
 	return (0);
