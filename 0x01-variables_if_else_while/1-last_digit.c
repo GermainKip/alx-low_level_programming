@@ -1,4 +1,4 @@
-#include <stdlib>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
@@ -16,16 +16,12 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	ko = n % 10;
 	if (ko > 5)
-	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, ko);
-	}
+		printf(
+		"Last digit of %d is %d and is greater than 5\n", n, ko);
 	else if (ko == 0)
-	{
-		printf("Last digit of %d is %d and is 0\n", n, ko);
-	}
+		printf(
+		"Last digit of %d is %d and is 0\n", n, ko);
 	else (ko < 6 && ko != 0)
-	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ko);
-	}
 	return (0);
 }
