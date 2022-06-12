@@ -7,7 +7,7 @@
  * @c: ASCII code representation of the character
  * Return: 1 if c is uppercase for other 0 otherwise
  */
-int _issupper(int c)
+int _isupper(int c)
 {
 	if (c <= 90 && c >= 65)
 		return (1);
