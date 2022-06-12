@@ -8,13 +8,15 @@
 
 int main(void)
 {
-	unsigned long int a, b = 612852475143;
-
-	for (a = 3; a < 782849; a = a + 2)
+	long int p, q;
+	p = 612852475143;
+	for (q = 2; q <= p; q++)
 	{
-		while ((b % a == 0) && (b != i))
-			b = b / i;
+		if (p % q == 0)
+		{
+			p /= q;
+			q--;
 	}
-	printf("%lu\n", n);
+	printf("%ld\n", q);
 	return (0);
 }
