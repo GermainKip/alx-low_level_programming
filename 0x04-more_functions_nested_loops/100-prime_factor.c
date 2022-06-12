@@ -9,6 +9,7 @@
 int main(void)
 {
 	long int p, q;
+
 	p = 612852475143;
 	for (q = 2; q <= p; q++)
 	{
@@ -16,6 +17,7 @@ int main(void)
 		{
 			p /= q;
 			q--;
+		}
 	}
 	printf("%ld\n", q);
 	return (0);
