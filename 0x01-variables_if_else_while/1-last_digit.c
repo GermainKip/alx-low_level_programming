@@ -1,6 +1,6 @@
-#include <stdio.h>
 #include <stdlib>
 #include <time.h>
+#include <stdio.h>
 
 /**
  * main - generates a different value of n each time the code is run
