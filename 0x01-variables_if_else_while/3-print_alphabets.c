@@ -1,20 +1,21 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Prints the whole alphabet of lowercase and that of uppercase.
- *Return: Always 0
+ * Return: Always 0
  */
+
 int main(void)
 {
-       char letter;
+	char LETT, lett;
 
-       for (letter = 'a'; letter <= 'z'; letter++)
-	   putchar(letter);
+	for (lett = 'a'; lett <= 'z'; lett++)
+		putchar(lett);
 
-       for (letter = 'A'; letter <= 'Z'; letter++)
-	   putchar(letter);
+	for (LETT = 'A'; LETT <= 'Z'; LETT++)
+		putchar(LETT);
 
-       putchar('\n');
-
-       return (0);
+	putchar('\n');
+	return (0);
 }
