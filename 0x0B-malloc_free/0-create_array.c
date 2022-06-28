@@ -15,7 +15,7 @@ char *create_array(unsigned int size, char c)
 	unsigned int sz;
 
 	if (size == 0)
-		return (NULL)
+		return (NULL);
 
 	ko = malloc(sizeof(c) * size);
 
