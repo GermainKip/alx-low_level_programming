@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * new_dog - Creates a new dog.
- * @name: The name of the dog.
- * @age: The age of the dog.
- * @owner: The owner of the dog.
+ * new_dog - function that creates a new dog
+ * @name: name of the dog
+ * @age: age of the dog
+ * @owner: name of the dog's owner
  *
- * Return: The new struct dog.
+ * Return: NULL if the function fails
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -43,9 +43,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	newdog->age = age;
 
-	for (p = 0; p < O; p++)
-		newdog->owner[p] = owner[p];
-	newdog->owner[p] = '\0';
+	for (k = 0; k < j; ppp++)
+		newdog->owner[k] = owner[k];
+	newdog->owner[k] = '\0';
 
 	return (newdog);
 }
