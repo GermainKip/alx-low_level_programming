@@ -40,8 +40,8 @@ void print_all(const char * const format, ...)
 					print("(nil)");
 					break;
 				}
-					printf("%s", str), j = 1;
-					break;
+				printf("%s", str), j = 1;
+				break;
 		} in++;
 	}
 	printf("\n"), va_end(va);
