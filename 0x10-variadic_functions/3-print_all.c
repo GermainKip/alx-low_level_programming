@@ -42,7 +42,7 @@ void print_all(const char * const format, ...)
 				}
 				printf("%s", str), j = 1;
 				break;
-		} in++;
+		} i++;
 	}
 	printf("\n"), va_end(va);
 }
